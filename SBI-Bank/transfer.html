@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<style>
+		.placeicon
+		{
+			font-family: fontawesome;
+			margin: 2px;
+		}
+		label{
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+
+<!--This is a navigation start here--->
+<nav>
+	<a href="index.html">
+		<button>HOME</button>
+	</a> 
+	
+	<a href="allcustomer.html">
+		<button>View All Costumer</button>
+	</a>
+	<a href="sbi-life-insurance-png.png">
+	           <button>sbi-life-insurance-</button>
+	</a>
+</nav>
+<!--This is a navigation end here--->
+<section align="center">
+	  <h1 >Welcome To Bank Of Maharashtra</h1>
+	  <img src="logo.png" width="300" height="250">
+<!--  Body section tag start here-->
+<section>
+	<h1 align="center">Transfer To</h1>
+	   <table border="1" style="margin: auto
+	   ;">
+	   	<tr>
+	   		<td style="margin: auto;">
+	   			<form action="">
+	   			<label> <b>Contact Number</b>
+	   			</label><br>
+	   				<input class="placeicon" type="text" name="Mobile Number" placeholder="&#xf095;" required><span>*</span>
+	   				<br><br>
+	   				<label>
+	   				<b>Ammount</b>
+	   			</label><br>
+	   			<input class="placeicon" type="text" name="amount"placeholder="&#xe1bc;" required><span>*</span>
+	   			<br>
+	   			<br>
+	   			<label><b>Transper To</b></label><br>
+	   			
+	   			<select name="name" id="name" required><span>*</span>
+	   				<option value="name">Select Name</option>
+				  <option value="name">Satish</option>
+				  <option value="name">Arun patil</option>
+				  <option value="name">Radika</option>
+				  <option value="name">Rani Jadhav</option>
+				  <option value="name">Raj Patil</option>
+				  <option value="name">Neha Patil</option>
+				  <option value="name">Namrata Patil</option>
+				  <option value="name">Ram Shinde</option>
+				  <option value="name">Madhav</option>
+				</select>
+	   		</td>
+	   		<td style="margin:auto;">
+	   			<img src="upi.png" width="100%" height="400">
+	   		</td>
+	   	</tr>
+	   	<tr>
+	   		<td colspan="2" align="center" style="padding: 20px;">
+	   		<br>
+	   		
+	   		<button id="btn"><a href="submit.html" onclick="ab()">Submit</a></button>
+	   		
+	   	</form>
+	   		</td>
+	    </tr>
+	  </table>
+</section>
+<!--  Body section tag end here-->
+
+<!-- footer start here-->
+<footer>
+	<marquee> <p>&copy;All Rights are Reserved - Neha Hatne 2022-2023</p></marquee>
+</footer>
+<!--footer end here--->
+
+</body>
+<script type="text/javascript">
+	function ab() 
+	{
+		var a=prompt("Enter OTP")
+	}
+</script>
+</html>

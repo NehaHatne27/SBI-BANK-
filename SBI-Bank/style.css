@@ -1,0 +1,111 @@
+
+nav{
+    width: 100%;
+    padding: 10px;
+    background-color:#00a7e1;
+    color: white;
+}
+nav button{
+    padding: 10px 20px;
+    margin: 0px 10px;
+    background-color: white;
+    color: black;
+    border:none;
+    border-radius: 20px;
+}
+td button{
+  align-items: center;
+	 padding: 10px 20px;
+    margin: 0px 13px;
+    background-color: orange;
+    color: white;
+    border:none;
+    border-radius: 20px;
+    font-size: 25px;
+}
+a{
+  width: 250px;
+  height: 200px;
+}
+section{
+  width:90%;
+ 
+}
+footer{
+  margin-top: 250px;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+p
+{
+  font-family: serif;
+}
+body
+{
+  background-color:#f7fff7 ;
+}
+span
+{
+  color: red;
+}
+input[type=submit] 
+{
+  margin-top: 10px;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+#btn
+{
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: green;
+  text-decoration: none;
+} 
+option
+{
+  font-size: 20px;
+}
+select
+{
+  font-size: 20px;
+  border-radius: 10px;
+}
+a
+{   width: 250px;
+    height: 200px;
+    text-decoration: none;
+    color: white;
+}
+input[type=text] 
+{
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+label
+{
+  margin-left:100px ;
+  font-size: 30px;
+}
+input[type=password] 
+{
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+img
+{
+  background-color: white;
+  border-radius: 30px;
+
+}
+table{
+  align-items: center;
+}
